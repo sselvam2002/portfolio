@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact | Shyam Selvam</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container header-container">
+        <a href="index.html" class="logo">Shyam<span>Selvam</span></a>
+        <button id="menu-button" class="menu-btn">☰</button>
+        <nav id="menu">
+          <ul class="nav-list">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact" class="active">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="hero contact-hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text animate-fadeInUp">
+            <span class="hero-tagline">Get in touch</span>
+            <h1 class="hero-title">
+              Contact <span class="text-gradient">Me</span>
+            </h1>
+            <p class="hero-description">
+              Have a question or want to work together? I'd love to hear from
+              you!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Main Section -->
+    <section class="contact-main section-padding">
+      <div class="container">
+        <div class="contact-content">
+          <div class="contact-info animate-fadeInUp">
+            <h2>Contact Information</h2>
+            <p>
+              Feel free to reach out through any of the methods below. I'm
+              always open to discussing new projects, creative ideas, or
+              opportunities to be part of your vision.
+            </p>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <p>ShyamSelvam1034@Gmail.com</p>
+                <a href="mailto:ShyamSelvam1034@Gmail.com" class="contact-link"
+                  >Send an email</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Phone</h3>
+                <p>678-528-3502</p>
+                <a href="tel:6785283502" class="contact-link">Call me</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Location</h3>
+                <p>1034 Blankets Creek Drive</p>
+                <p>Canton, GA, 30114</p>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <h3>Connect with me</h3>
+              <div class="social-icons">
+                <a href="#" class="social-icon"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="#" class="social-icon"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="#" class="social-icon"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="social-icon"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-container animate-fadeInUp delay-200">
+            <h2>Send Me a Message</h2>
+            <p>
+              Have a question or proposal, or just want to say hello? Go ahead.
+            </p>
+
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-control"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  class="form-control"
+                  placeholder="Enter subject"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-control"
+                  placeholder="Enter your message"
+                  rows="6"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+      <div class="map-container">
+        <!-- You can replace this with an actual Google Maps embed -->
+        <div class="map-placeholder">
+          <img src="/api/placeholder/1200/400" alt="Map Location" />
+          <div class="map-overlay">
+            <h3>Visit Me</h3>
+            <p>1034 Blankets Creek Drive, Canton, GA, 30114</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq section-padding">
+      <div class="container">
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>Here are answers to some common questions you might have.</p>
+        </div>
+
+        <div class="faq-grid">
+          <div class="faq-item animate-fadeInUp">
+            <h3>What services do you offer?</h3>
+            <p>
+              I specialize in web development, IT infrastructure setup, and
+              technology consulting services. My goal is to provide
+              comprehensive technology solutions tailored to your specific
+              needs.
+            </p>
+          </div>
+
+          <div class="faq-item animate-fadeInUp delay-100">
+            <h3>Are you available for freelance work?</h3>
+            <p>
+              Yes! I'm currently available for freelance projects and
+              collaborations. Feel free to contact me with your project details,
+              and we can discuss how we can work together.
+            </p>
+          </div>
+
+          <div class="faq-item animate-fadeInUp delay-200">
+            <h3>How quickly do you respond to inquiries?</h3>
+            <p>
+              I typically respond to all messages within 24-48 hours during
+              weekdays. For urgent matters, phone calls are the quickest way to
+              reach me.
+            </p>
+          </div>
+
+          <div class="faq-item animate-fadeInUp delay-300">
+            <h3>Do you offer student discounts?</h3>
+            <p>
+              Yes, I offer special rates for fellow students and educational
+              institutions. Please mention that you're a student when contacting
+              me for more information.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-widget">
+            <h4>About Me</h4>
+            <p>
+              Student at Kennesaw State University passionate about IT and
+              entrepreneurship.
+            </p>
+            <div class="footer-social">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-widget">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="index.html#portfolio">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-widget">
+            <h4>Contact</h4>
+            <ul class="footer-links">
+              <li>ShyamSelvam1034@Gmail.com</li>
+              <li>678-528-3502</li>
+              <li>Canton, GA</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 Shyam Selvam. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
